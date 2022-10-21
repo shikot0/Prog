@@ -18,7 +18,7 @@ function CurrentlyLearning() {
         <section id="currently-learning-section">
             <header>
                 <h2>Currently Learning</h2>
-                <Link to={`/add-item`} className="add-item-link"><img src="./logos/add-button-stand-in.svg" alt="add button" /></Link>
+                <Link to={`/add-item`} className="add-item-link"><img src={`${process.env.PUBLIC_URL}/logos/add-item-section-link.svg`} alt="add button" /></Link>
             </header>
             <div className="currently-learning-wrapper">
                 {learningList && learningList.map((listItem, index) => {
