@@ -74,7 +74,11 @@ nav {
 }
 .add-item-link {
   border: none;
-  background: transparent;
+  width: 20px;
+  height: 20px;
+  background: url(../public/logos/logo-add-item-section.svg);
+  background-size: cover;
+  background-position: center;
   color: hsl(176, 50%, 47%);
   cursor: pointer;
 }
