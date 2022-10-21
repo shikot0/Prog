@@ -18,7 +18,7 @@ function CurrentlyLearning() {
         <section id="currently-learning-section">
             <header>
                 <h2>Currently Learning</h2>
-                <Link to={`/add-item`} className="add-item-link"></Link>
+                <Link to={`/add-item`} className="add-item-link" aria-label='add an element'></Link>
                 {/* <Link to={`/add-item`} className="add-item-link"><img src={`${process.env.PUBLIC_URL}/logos/logo-add-item-section.svg`} alt="add button" /></Link> */}
             </header>
             <div className="currently-learning-wrapper">
@@ -26,7 +26,6 @@ function CurrentlyLearning() {
                     return <LearningItem data={listItem} key={index} />
                 })}
                 {learningList.length === 0 && <p className="hint">Add some items to get started!</p>}
-                {/* <p className="hint">Add some items to get started!</p> */}
             </div>
         </section>
     )

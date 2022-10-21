@@ -31,6 +31,7 @@ nav {
 }
 .theme-switcher-button img {
   width: 30px;
+  height: 30px;
 }
 .profile-picture {
   display: flex;
@@ -74,8 +75,8 @@ nav {
 }
 .add-item-link {
   border: none;
-  width: 20px;
-  height: 20px;
+  width: 1.4rem;
+  height: 1.4rem;
   background: url(../public/logos/logo-add-item-section.svg);
   background-size: cover;
   background-position: center;

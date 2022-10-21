@@ -27,7 +27,7 @@ function Header() {
                     <img src="pfp_test.jpg" alt="Profile" />
                 </div> */}
                 <button className="theme-switcher-button" onClick={toggleTheme}>
-                    <img src={darkTheme ? './logos/light-mode-icon.svg' : './logos/dark-mode-icon.svg'} alt="" />
+                    <img src={darkTheme ? `${process.env.PUBLIC_URL}/logos/light-mode-icon.svg` : `${process.env.PUBLIC_URL}/logos/dark-mode-icon.svg`} alt="" />
                 </button>
             </nav>
         </header>
